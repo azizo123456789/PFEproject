@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:backgroundTint="@color/between_0_10"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/total_user_point"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="center"
+            android:text="@string/point_total_point"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="center"
+            android:paddingStart="15dp"
+            android:paddingEnd="0dp"
+            android:text="@string/point_total_label"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/grey"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_alternates"
+                android:gravity="center"
+                android:text="@string/point_total_point"
+                android:textAlignment="center"
+                android:textColor="@color/cmd_in_progress"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/montserrat_alternates"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:text="@string/point_old_total_label"
+                android:textColor="@color/blue_teal"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="150dp">-->
+
+    <!--    <Space-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="10" />-->
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_weight="30"-->
+    <!--        app:cardBackgroundColor="@color/between_50"-->
+    <!--        app:cardCornerRadius="20dp">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="5dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="0dp"-->
+    <!--                android:layout_weight="5"-->
+    <!--                android:contentDescription="@string/img_profile_btn"-->
+    <!--                app:srcCompat="@drawable/ic_outline_monetization" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/user_point_total"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="0dp"-->
+    <!--                android:layout_weight="10"-->
+    <!--                android:fontFamily="@font/montserrat_alternates"-->
+    <!--                android:gravity="center_vertical"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingEnd="0dp"-->
+    <!--                android:text="@string/point_total_point"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="16sp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="0dp"-->
+    <!--                android:layout_weight="5"-->
+    <!--                android:fontFamily="@font/montserrat_alternates"-->
+    <!--                android:gravity="center_vertical"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingEnd="0dp"-->
+    <!--                android:text="@string/point_total_label"-->
+    <!--                android:textColor="@color/grey"-->
+    <!--                android:textSize="12sp" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <Space-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="20" />-->
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_weight="30"-->
+    <!--        app:cardBackgroundColor="@color/between_0_10"-->
+    <!--        app:cardCornerRadius="20dp">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:padding="5dp">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="0dp"-->
+    <!--                android:layout_weight="5"-->
+    <!--                android:contentDescription="@string/img_profile_btn"-->
+    <!--                app:srcCompat="@drawable/ic_outline_monetization" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/user_old_point_total"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="0dp"-->
+    <!--                android:layout_weight="10"-->
+    <!--                android:fontFamily="@font/montserrat_alternates"-->
+    <!--                android:gravity="center_vertical"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingEnd="0dp"-->
+    <!--                android:text="@string/point_total_point"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="16sp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="0dp"-->
+    <!--                android:layout_weight="5"-->
+    <!--                android:fontFamily="@font/montserrat_alternates"-->
+    <!--                android:gravity="center_vertical"-->
+    <!--                android:paddingStart="15dp"-->
+    <!--                android:paddingEnd="0dp"-->
+    <!--                android:text="@string/point_old_total_label"-->
+    <!--                android:textColor="@color/grey"-->
+    <!--                android:textSize="12sp" />-->
+    <!--        </LinearLayout>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <Space-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="10" />-->
+    <!--</LinearLayout>-->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    app color        -->
+    <color name="blue_teal">#253044</color>
+    <color name="blue_teal_200">#6A8CBF</color>
+<!--    <color name="grey">#C5C6E0</color>-->
+    <color name="grey">#CFD8DC</color>
+    <color name="grey_200">#F6F6FA</color>
+    <color name="grey_btn">#515151</color>
+
+    <!--    pub card color       -->
+<!--    <color name="between_0_10">#96BDC1</color>-->
+    <color name="between_0_10">#fca311</color>
+<!--    <color name="between_10_30">#962D3E</color>-->
+    <color name="between_10_30">#d90429</color>
+<!--    <color name="between_30_50">#35495A</color>-->
+    <color name="between_30_50">#01497c</color>
+<!--    <color name="between_50">#979C9C</color>-->
+    <color name="between_50">#246a73</color>
+
+    <!--    Cmd History color       -->
+    <color name="cmd_confirmed">#00af91</color>
+    <color name="cmd_in_progress">#5f41e0</color>
+    <color name="cmd_cancled">#f05454</color>
+</resources>

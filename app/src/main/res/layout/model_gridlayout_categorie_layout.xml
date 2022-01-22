@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/categorie_linear"
+    android:layout_width="120dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/grey_200"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:id="@+id/categorie_label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/placeholder_cat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/categorie_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/categorie_image"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="50"-->
+    <!--        android:contentDescription="@string/img_profile_btn"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:srcCompat="@drawable/ic_fastfood" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/categorie_label"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:fontFamily="@font/montserrat_alternates"-->
+    <!--        android:gravity="center"-->
+    <!--        android:padding="5dp"-->
+    <!--        android:text="@string/placeholder_cat"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/blue_teal"-->
+    <!--        android:textSize="15sp"-->
+    <!--        android:textStyle="bold" />-->
+</LinearLayout>

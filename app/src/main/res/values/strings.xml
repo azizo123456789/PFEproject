@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Afar</string>
+    <!--    splash screen       -->
+    <string name="sp_text_1">Afar , le roi des bon plan </string>
+    <string name="sp_text_2">Utiliser tes points pour bénificier des offres, des promotions et des réductions!! </string>
+
+    <!--    sign In     -->
+    <string name="sg_connect">Se connecter</string>
+    <string name="sg_pass_forgot">Mot de passe oublié ?</string>
+    <string name="sg_signUp">Vous n avez pas de compte ? S\'inscrire ici ..</string>
+
+    <!--    sign Up     -->
+    <string name="sg_register">S\'inscrire</string>
+
+    <!--    Form input      -->
+    <string name="email_input">Email</string>
+    <string name="pass_input">Mot de passe</string>
+    <string name="first_name_input">Prénom</string>
+    <string name="last_name_input">Nom</string>
+    <string name="search_input">Recherche</string>
+    <string name="phone_input">Téléphone</string>
+    <string name="address_input">Adresse</string>
+
+    <!--    Forget password     -->
+    <string name="fg_text_2">Entrez votre email pour récupérer votre compte</string>
+    <string name="fg_btn">Réinitialiser mot de passe</string>
+
+    <!--    Article Item        -->
+    <string name="article_panier">Ajouter au panier</string>
+    <string name="article_layout_title">Detail</string>
+    <string name="article_percent">50%</string>
+
+    <!--    Profile     -->
+    <string name="btn_user_edit_info">Modifier mon profil</string>
+    <string name="btn_user_history">Mes historiques</string>
+    <string name="btn_user_point">Mes points</string>
+    <string name="btn_user_panier">Mon Panier</string>
+    <string name="btn_user_deconnect">Déconnexion</string>
+    <string name="profile_title">Profil</string>
+    <string name="history_title">Historique</string>
+    <string name="point_title">Mes Points</string>
+    <string name="panier_title">Mon Panier</string>
+
+    <!--    History     -->
+    <string name="cmd_order">Order #154789 </string>
+    <string name="cmd_price">77000 DT</string>
+    <string name="cmd_point">10000 points</string>
+    <string name="cmd_confirmed">Confirmé</string>
+    <string name="cmd_cancled">Annulé</string>
+    <string name="cmd_InProgress">En cours</string>
+    <string name="cmd_empty_list">Aucune commande n\'a été passée.. </string>
+
+    <!--    Point     -->
+    <string name="point_total">Total</string>
+    <string name="point_total_label">points</string>
+    <string name="point_old_total_label">Ancien total des point</string>
+    <string name="point_total_point">0</string>
+    <string name="point_balance">Votre solde : </string>
+
+    <!--    Panier     -->
+    <string name="panier_btn_remove">Supprimer</string>
+    <string name="panier_btn_confirm">Confirmer</string>
+
+    <!--    Entreprise Detail     -->
+    <string name="ent_articles">Articles</string>
+
+
+    <!--    Toast       -->
+    <string name="toast_complete_form">Compléter le formulaire ...</string>
+    <string name="toast_finish">Presser deux fois pour sortir</string>
+    <string name="toast_shop_not_enable">Votre solde de point est insuffissant</string>
+    <string name="toast_shop_enable">l\'article est ajoutée avec succées</string>
+    <string name="toast_shop_article_exist">l\'article existe dans le panier</string>
+    <string name="toast_success_create_account">votre compte a été créé avec succès</string>
+    <string name="toast_success_update_profile">votre profil a été mis à jour</string>
+    <string name="toast_earn_point">Félicitations ! Vous avez gagné </string>
+    <string name="toast_on_back_pressed">Veuillez utiliser le bouton de l\'application... </string>
+    <string name="toast_passed_command">votre commande est passée en attente de confirmation </string>
+    <string name="toast_photo_cancled">aucune modification n\'a été apportée </string>
+
+    <!--    Error       -->
+    <string name="error_email">email incorrect</string>
+    <string name="error_duplicated_email">email exists</string>
+    <string name="error_pass">longueur du mot de passe inférieur a 8</string>
+    <string name="error_phone">le numéro est invalide</string>
+    <string name="error_upload_image">impossible de télécharger l\'image</string>
+    <string name="error_task">veuillez réessayer ultérieurement</string>
+    <string name="error_connexion">veuillez réessayer ultérieurement</string>
+    <string name="error_login">email ou mot de passe incorrect</string>
+
+    <!--    Menu        -->
+    <string name="menu_pub">Publicité</string>
+    <string name="menu_store">Store</string>
+    <string name="menu_profile">Profil</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_entreprise">Détail</string>
+
+    <!--    EXAMPLE PLACEHOLDER      -->
+    <string name="placeholder_cat">Categorie</string>
+    <string name="placeholder_pub_label">Zara</string>
+    <string name="placeholder_pub">Tentez de ganger </string>
+    <string name="placeholder_store_label">Pull Zara</string>
+    <string name="placeholder_store_price">200 DT</string>
+    <string name="placeholder_store_point">5000 points</string>
+    <string name="placeholder_store_desc">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has be</string>
+    <string name="placeholder_user_name">Foulen ben Foulen</string>
+    <string name="placeholder_point_total">55000 points</string>
+    <string name="placeholder_user_email">FoulenBen@gmail.com</string>
+    <string name="placeholder_article_item_count">5</string>
+
+    <!--    IMAGE description       -->
+    <string name="img_store">image de l\'article</string>
+    <string name="img_cmd_state">Etat de la commande</string>
+    <string name="img_user_avatar">User Avatar</string>
+    <string name="img_profile_btn">icon</string>
+    <string name="img_panier">panier</string>
+
+    <!--    Dialog BOX      -->
+    <string name="dialog_title">Passer une commande</string>
+    <string name="dialog_supporting_text">Etes vous sur de vouloir passer la commande?</string>
+    <string name="dialog_decline">Annuler</string>
+    <string name="dialog_accept">Oui</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

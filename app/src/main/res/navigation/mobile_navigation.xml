@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_publicity">
+
+    <fragment
+        android:id="@+id/navigation_store"
+        android:name="com.example.pfeproject.fragments.store.StoreFragment"
+
+        tools:layout="@layout/fragment_store" />
+<!--android:label="@string/menu_store"
+    android:label="@string/menu_pub"
+     android:label="@string/menu_profile"-->
+    <fragment
+        android:id="@+id/navigation_publicity"
+        android:name="com.example.pfeproject.fragments.publicity.PublicityFragment"
+
+        tools:layout="@layout/fragment_publicity" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.pfeproject.fragments.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

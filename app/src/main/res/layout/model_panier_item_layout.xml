@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:contentDescription="@string/img_profile_btn"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/image_store" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="70">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp">
+
+            <TextView
+                android:id="@+id/item_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/item_label"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_alternates"
+                android:gravity="center_vertical"
+                android:text="@string/placeholder_store_label"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_soc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_alternates"
+                android:text="@string/placeholder_pub_label"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/item_btn_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/panier_btn_remove"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/grey_btn"
+                android:textSize="12sp"
+                app:icon="@drawable/ic_close"
+                app:iconTint="@color/grey_btn" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_point"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="center"
+            android:text="@string/cmd_point"
+            android:textAlignment="center"
+            android:textColor="@color/grey_btn" />
+    </LinearLayout>
+</LinearLayout>
